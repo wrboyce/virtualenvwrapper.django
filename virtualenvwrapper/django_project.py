@@ -33,4 +33,8 @@ def template(args):
     subprocess.check_call(['git', 'add', '.'])
     subprocess.check_call(['git', 'commit', '-m', '"[mkproject] installed Django project template"'])
 
+    # Create a symlink in site-packages to the src dir
+    logger.info(u'Creating site-packages symlinks')
+    subprocess.check_call(['python', 'setup.py', 'develop'])
+
     logger.info(u'Done')
