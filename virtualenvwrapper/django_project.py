@@ -9,7 +9,7 @@ logger = logging.getLogger(u'virtualenvwrapper.django')
 
 def template(args):
     project_name = args.pop(0)
-    project_template = os.path.join(os.path.dirname(__file__), 'project_template')
+    project_template = os.path.join(os.path.dirname(__file__), 'templates', 'project_template')
 
     logger.info(u'Installing readline')
     subprocess.check_call(['easy_install', 'readline'])
