@@ -1,21 +1,22 @@
-ipdb==0.7
-ipython==0.13
+https://github.com/ipython/ipython/tarball/rel-0.13
+https://github.com/gotcha/ipdb/tarball/0.7
 
 psycopg2==2.4.5
 wsgiref==0.1.2
 flup==1.0.3.dev-20110405
 
--e git+https://github.com/django/django.git@1.4.1#egg=django
+https://github.com/django/django/tarball/1.4.1
 pytz==2012d
 
--e git+https://github.com/jezdez/django-configurations.git@a8917a7a875380804d36a52e3453de6663edb4a8#egg=django_configurations
--e hg+https://bitbucket.org/andrewgodwin/south@0.7.6#egg=django_south
+https://github.com/jezdez/django-configurations/tarball/master
+https://bitbucket.org/andrewgodwin/south/get/0.7.6.tar.gz
 
--e git+https://github.com/django-extensions/django-extensions.git@0.9#egg=django_extensions
--e git+https://github.com/mitsuhiko/werkzeug.git@0.8.3#egg=Werkzeug
+https://github.com/django-extensions/django-extensions/tarball/0.9
+https://github.com/mitsuhiko/werkzeug/tarball/0.8.3
 
--e git+https://github.com/hmarr/django-ses.git@v0.4.1#egg=django_ses
+https://github.com/boto/boto/tarball/2.5.2
+https://github.com/hmarr/django-ses/tarball/v0.4.1
 
--e git+https://github.com/lukaszb/django-guardian.git@v1.0.4#egg=django_guardian
--e git+https://github.com/bread-and-pepper/django-userena.git@v1.1.2#egg=django_userena
--e git+https://github.com/SmileyChris/easy-thumbnails.git@1.0.3#egg=easy_thumbnails
+https://github.com/lukaszb/django-guardian/tarball/v1.0.4
+https://github.com/bread-and-pepper/django-userena/tarball/v1.1.2
+https://github.com/SmileyChris/easy-thumbnails/tarball/1.0.3
