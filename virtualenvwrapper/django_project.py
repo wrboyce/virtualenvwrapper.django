@@ -26,7 +26,8 @@ def template(args):
 
     # Create django project using our template
     logger.info(u'Creating django project')
-    subprocess.check_call(['django-admin.py', 'startproject', '--template={}'.format(project_template), '-e', 'py', '-e', 'txt', project_name, os.getcwd()])
+    subprocess.check_call(['django-admin.py', 'startproject', '--template={}'.format(project_template),
+                           '-e', 'py', '-e', 'txt', '-n', 'Vagrantfile', project_name, os.getcwd()])
 
     # Commit changes to git, leaving a cleaning working environment
     logger.info(u'Committing changes')

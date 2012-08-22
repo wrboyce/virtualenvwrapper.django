@@ -1,0 +1,12 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+Vagrant::Config.run do |config|
+  config.vm.box = "{{ project_name }}"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+
+  config.vm.provision :shell, :path => "bootstrap.sh"
+
+  config.vm.share_folder "{{ project_name }}", "/srv/{{ project_name }}", "{{ project_directory }}"
+end
