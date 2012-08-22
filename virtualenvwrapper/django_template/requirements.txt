@@ -1,0 +1,21 @@
+ipdb==0.7
+ipython==0.13
+
+psycopg2==2.4.5
+wsgiref==0.1.2
+flup==1.0.3.dev-20110405
+
+-e git+https://github.com/django/django.git@1.4.1#egg=django
+pytz==2012d
+
+-e git+https://github.com/jezdez/django-configurations.git@a8917a7a875380804d36a52e3453de6663edb4a8#egg=django_configurations
+-e hg+https://bitbucket.org/andrewgodwin/south@0.7.6#egg=django_south
+
+-e git+https://github.com/django-extensions/django-extensions.git@0.9#egg=django_extensions
+-e git+https://github.com/mitsuhiko/werkzeug.git@0.8.3#egg=Werkzeug
+
+-e git+https://github.com/hmarr/django-ses.git@v0.4.1#egg=django_ses
+
+-e git+https://github.com/lukaszb/django-guardian.git@v1.0.4#egg=django_guardian
+-e git+https://github.com/bread-and-pepper/django-userena.git@v1.1.2#egg=django_userena
+-e git+https://github.com/SmileyChris/easy-thumbnails.git@1.0.3#egg=easy_thumbnails
